@@ -1,0 +1,76 @@
+@media screen and (max-width: 600px) {
+    section > .container{
+        width: auto;
+        margin: auto;
+        display: block;
+    
+    }
+    .banner-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: small;
+    }
+    #nav-bar a {
+        text-decoration: none;
+        color: black;
+        border-left: none;
+        display: flex;
+        align-items: center;
+    }
+    #nav-bar .avt {
+        border-left: 1px solid grey;
+        padding-left: 30px;
+        padding-right: 30px;
+        position: relative;
+        display: none;
+    }
+    #nav-bar .avt img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        border: 5px solid white;
+        position: absolute;
+        bottom: -50px;
+        right: 2px;
+        display: none;
+    
+    }
+    #about .container {
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 20px;
+    }
+    #job-info .container {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 250px; 
+        gap: 20px;
+        text-align: center;
+    }
+    #certificate .box {
+        display: grid;
+        grid-template-columns: 100%;
+        row-gap: 20px;
+    }
+    .box-in6-2 {
+        padding-left: 0px;
+        border-left: none;
+    }
+    .box-in6-3 {
+        padding-top: 0px;
+        border-top: none;
+        grid-column: 1/-1;
+    }
+    #project .box {
+        display: grid;
+        grid-template-columns: auto;
+        
+        gap: 10px;
+        justify-content: center;
+    }
+    #footer .container {
+        padding-left: 10%;
+    }
+}
